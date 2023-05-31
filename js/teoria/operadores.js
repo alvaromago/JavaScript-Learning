@@ -1,9 +1,10 @@
-document.write("<h2> - Operadores - </h2>")
+document.write("<h2> - 2. Operadores - </h2>");
 
 // ARITMÉTICOS
+document.write("<h3>Aritméticos</h3>");
 
 let $num1 = 5;
-document.write("<p>Valor base de mi número: " + $num1 + "</p>")
+document.write("<p>Valor base de mi número: " + $num1 + "</p>");
 // Adición (+)
 $num1 += 3; // 8
 document.write("<p>Adición (+=3): " + $num1 + "</p>");
@@ -23,3 +24,12 @@ document.write("<p>Resto (%=3): " + $num1 + "</p>");
 $num1 = 2;
 $num1 **= 2; // 4
 document.write("<p>Exponenciación (**=3): " + $num1 + "</p>");
+
+// Operadores lógicos
+document.write("<h3>Lógicos</h3>");
+
+$num1 = 5;
+let $num2 = 5;
+document.write(`<p>num1 = ${$num1} ||| num2 = ${$num2}</p>`);
+document.write("<p>Equality (==): " + ($num1 == $num2) + "</p>");
+document.write("<p>Inequality (!=): " + ($num1 != $num2) + "</p>");
