@@ -31,5 +31,8 @@ document.write("<h3>Lógicos</h3>");
 $num1 = 5;
 let $num2 = 5;
 document.write(`<p>num1 = ${$num1} ||| num2 = ${$num2}</p>`);
-document.write("<p>Equality (==): " + ($num1 == $num2) + "</p>");
+document.write("<p>Equality (==): " + ($num1 == $num2) + "</p>"); // Son lo mismo? (sin incluir tipo)
 document.write("<p>Inequality (!=): " + ($num1 != $num2) + "</p>");
+document.write("<p>Identity (===): " + ($num1 === $num2) + "</p>"); // Son lo mismo? (incluyendo tipo)
+document.write("<p>También tenemos operadores como MAYOR QUE (>), MAYOR O IGUAL QUE (>=), MENOR QUE (<) y MENOR O IGUAL QUE (<=)</p>");
+document.write("<p>Y también tenemos los tres operadores lógicos: AND (&&), OR (||) y NOT (!)</p>");
